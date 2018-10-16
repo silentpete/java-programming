@@ -46,6 +46,7 @@ class LinkedList {
   public void printAllData() {
     if (head == null) return;
 
+    System.out.println("Printing all data in LinkedList");
     Node current = head;
     for (int i = 0; i < count; i++) {
       System.out.println(current.data);
@@ -68,7 +69,7 @@ class Node {
 class Start {
   public static void main(String[] args) {
     int[] peter = {1,2,3};
-    System.out.println("testing printing out of array: " + peter[1]);
+    // System.out.println("testing printing out of array: " + peter[1]);
 
     LinkedList ll = new LinkedList();
 
