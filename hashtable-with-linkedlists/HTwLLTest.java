@@ -44,11 +44,11 @@ public class HTwLLTest {
         tmpll.addLast(p3);
 
         System.out.println(ht.size());
-        System.out.println(ht.get(0));
-        System.out.println(ht.get(1));
-        System.out.println(ht.get(2));
-        System.out.println(ht.get(3));
-        System.out.println(ht.get(4));
+        System.out.println("hashtables key 0 = " + ht.get(0));
+        System.out.println("hashtables key 1 = " + ht.get(1));
+        System.out.println("hashtables key 2 = " + ht.get(2));
+        System.out.println("hashtables key 3 = " + ht.get(3));
+        System.out.println("hashtables key 4 = " + ht.get(4));
 
         for (int i = 0; i < buckets; i++) {
             System.out.println("Bucket " + i);
