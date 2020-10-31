@@ -1,0 +1,9 @@
+/*
+  Classname
+
+  Version information
+
+  Date
+
+  Copyright notice
+*/
